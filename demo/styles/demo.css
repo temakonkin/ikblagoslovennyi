@@ -1,0 +1,91 @@
+#demo_navi {
+	z-index: 99999;
+	position: fixed;
+	top: 0px;
+	height: 64px;
+	margin-left: -8px;
+	width: 100%;
+	background: #121214;
+	box-shadow: 0px 2px 15px rgba( 0, 0, 0, 0.6);
+}
+
+#demo_navi a {
+	text-decoration: none;
+}
+
+#demo_navi  .logo {
+    white-space: nowrap; /* Отменяем перенос текста */
+	background: url(../images/logo_add.png) no-repeat;
+	font-size: 30px;
+	padding: 0px 0px 0px 70px;
+	line-height: 50px;
+	color: #eeeeee;
+	font-weight: ;
+	text-shadow: 0px 1px 1px #000;
+	float: left;
+	font-family: "Pontano Sans", Helvetica;
+}
+
+#demo_navi  .demo {
+	font-size: 12px;
+	font-family: "Pontano Sans", Helvetica;
+	padding: 0px 6px 0px 4px;
+	line-height: 20px;
+	margin-bottom: 13px;
+	color: #eeeeee;
+	font-weight: ;
+	text-shadow: 0px 1px 0px #000;
+	float: left;
+}
+
+#demo_navi  .name {
+    white-space: nowrap; /* Отменяем перенос текста */
+    overflow: hidden; /* Обрезаем содержимое */
+	font-size: 18px;
+	padding: 0px 20px 0px 0px;
+	line-height: 48px;
+	color: #eeeeee;
+	font-weight: ;
+	text-shadow: 0px 1px 0px #000;
+	float: right;
+	font-family: "Pontano Sans", Helvetica;
+}
+
+#controls {
+  position: fixed;
+  top: 10.6em;
+  right: 1.5em;
+  z-index: 10;
+  background: #fff;
+  padding: 1em 1em;
+  opacity: .7;
+  border-top: solid .4em #444;
+  border-bottom: solid .4em #444;
+}
+#controls label {
+  display: block;
+  margin: 1em 0;
+}
+#controls label span {
+  display: inline-block;
+  min-width: 3.5em;
+}
+#controls label input {
+  font-family: 'Montserrat';
+  font-size: 12pt;
+  padding-bottom: .2em;
+  width: 10em;
+  border: none;
+  border-bottom: solid 1px #999;
+  color: #000;
+  outline: none;
+  webkit-appearance: none;
+}
+#controls p {
+  text-align: right;
+  font-size: 80%;
+  margin: 1em 0 .5em 0;
+}
+#controls p.error {
+  color: #b00;
+}
